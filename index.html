@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+	<title>Pokemon</title>
+</head>
+
+<body>
+	<div class="kites_pokemon_container">
+		<h3  class="kites_pokemon_title">Form Layout</h3>
+		<div class="kites_pokemon_chart_container">
+
+		</div>
+		<div class="kites_pokemon_figure_container">
+			<div class="kites_pokemon_tab_container">
+				<button class="kites_pokemon_add_tab kites_pokemon_active_tab">Add</button>
+				<button class="kites_pokemon_remove_tab">Remove</button>
+			</div>
+			<div class="kites_pokemon_add_container">
+				<div>
+					<select class="js-example-basic-single kites_pokemon_selector" name="state" id="">
+						<option value="AL">Alabama</option>
+						<option value="WY">Wyoming</option>
+						<option value="AL">Alabama</option>
+						<option value="WY">Wyoming</option>
+						<option value="AL">Alabama</option>
+						<option value="WY">Wyoming</option>
+					</select>
+				</div>
+				<button class="kites_pokemon_add_figure_btn">Add Figure</button>
+				<div class="kites_pokemon_checkbox_container">
+					<input type="checkbox" name="hide_figure" id="kites_pokemon_hide_figure">
+					<label for="hide_figure">Hide the name above figures</label>
+				</div>
+
+
+			</div>
+		</div>
+	</div>
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="main.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+</body>
+
+</html>
